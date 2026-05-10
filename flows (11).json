@@ -1,0 +1,1145 @@
+[
+    {
+        "id": "ecf8da8731fd77e3",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "16a86c011ee9c50a",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "40d1548edf259200",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8ba0d64c0ecfa88c",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "2afa2bf64f5c4012",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "270048488052be14",
+        "type": "ui-page",
+        "name": "Smart Kompost Monitor",
+        "ui": "8ba0d64c0ecfa88c",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "2afa2bf64f5c4012",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "f9d1b2c1561499f6",
+        "type": "ui-group",
+        "name": "Kondisi Udara Komposter",
+        "page": "270048488052be14",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "165d0f26341f60a8",
+        "type": "telegram bot",
+        "botname": "Smart Compost Monitor",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "updatemode": "polling",
+        "pollinterval": 300,
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": 6667,
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "0.0.0.0",
+        "localbotport": 8443,
+        "publicbotport": 8443,
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "1c2b3096fc22962e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "815b0653b8925fb6",
+        "type": "ui-group",
+        "name": "Status Sistem",
+        "page": "270048488052be14",
+        "width": 6,
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "184a51fe7b23b429",
+        "type": "ui-group",
+        "name": "Kondisi Media Kompos",
+        "page": "270048488052be14",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a9a40e837ec9c325",
+        "type": "ui-group",
+        "name": "Kontrol Aktuator",
+        "page": "270048488052be14",
+        "width": 6,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3741c0cef3999cb6",
+        "type": "ui-group",
+        "name": "Tren Data",
+        "page": "270048488052be14",
+        "width": "12",
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b38b0e74a3dfde3c",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "1556868b78365b1d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "405ddc32b5914dc29655d90f79fac3c4.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "b38b0e74a3dfde3c",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f71717e621636eb5",
+        "type": "mqtt in",
+        "z": "ecf8da8731fd77e3",
+        "name": "",
+        "topic": "iot/kompos/ta/device1/data",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "1556868b78365b1d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "d13446516c13db52",
+                "aed13ab9f375b33d"
+            ]
+        ]
+    },
+    {
+        "id": "52024b7539ebc65b",
+        "type": "ui-gauge",
+        "z": "ecf8da8731fd77e3",
+        "name": "Kelembapan Kompos",
+        "group": "184a51fe7b23b429",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Kelembapan Kompos",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#d65c5c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#ff7b00",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#37b91d",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "60",
+                "color": "#44c40e",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#e48c11",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "100",
+                "color": "#e52424",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 940,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d13446516c13db52",
+        "type": "function",
+        "z": "ecf8da8731fd77e3",
+        "name": "function 1",
+        "func": "// ================= PARSING AMAN =================\nif (typeof msg.payload === \"string\") {\n    if (!msg.payload.trim().startsWith(\"{\")) return null;\n\n    try {\n        msg.payload = JSON.parse(msg.payload);\n    } catch (e) {\n        return null;\n    }\n}\n\nlet d = msg.payload;\n\n// ================= VALIDASI =================\nconst required = [\"suhu_kompos\", \"kelembapan_kompos\"];\nfor (let f of required) {\n    if (d[f] === undefined || d[f] === null) return null;\n}\n\n// ================= NORMALISASI =================\nlet suhu = parseFloat(d.suhu_kompos);\nlet hum = parseInt(d.kelembapan_kompos);\nlet suhu_udara = parseFloat(d.suhu_udara);\nlet hum_udara = parseInt(d.kelembapan_udara);\n\nif (isNaN(suhu_udara)) suhu_udara = 0;\nif (isNaN(hum_udara)) hum_udara = 0;\n\n// ================= SYNC MODE DARI ESP32 =================\nlet currentMode = d.mode || \"AUTO\";\n\n// overwrite global → ESP32 jadi sumber utama\nglobal.set(\"mode\", currentMode);\nd.mode = currentMode;\n\n// ================= THRESHOLD =================\nconst suhuMin = 35;\nconst suhuMax = 45;\nconst humMin = 40;\nconst humMax = 60;\n\nconst suhuMinOut = 34;\nconst suhuMaxOut = 46;\nconst humMinOut = 38;\nconst humMaxOut = 62;\n\n// ================= STATUS SENSOR =================\nlet suhu_status = (suhu >= suhuMin && suhu <= suhuMax)\n    ? \"✅ OPTIMAL\"\n    : \"⚠️ TIDAK OPTIMAL\";\n\nlet lembab_status = (hum >= humMin && hum <= humMax)\n    ? \"✅ OPTIMAL\"\n    : \"⚠️ TIDAK OPTIMAL\";\n\n// ================= HYSTERESIS =================\nlet lastStatus = global.get(\"statusHysteresis\") || \"OPTIMAL\";\nlet status;\n\nif (suhu > 50 || hum < 30) {\n    status = \"KRITIS\";\n} else {\n    if (lastStatus === \"OPTIMAL\") {\n        if (suhu < suhuMinOut || suhu > suhuMaxOut || hum < humMinOut || hum > humMaxOut) {\n            status = \"TIDAK OPTIMAL\";\n        } else {\n            status = \"OPTIMAL\";\n        }\n    } else {\n        if (suhu >= suhuMin && suhu <= suhuMax && hum >= humMin && hum <= humMax) {\n            status = \"OPTIMAL\";\n        } else {\n            status = \"TIDAK OPTIMAL\";\n        }\n    }\n}\n\nglobal.set(\"statusHysteresis\", status);\n\n// ================= SIMPAN DATA =================\nd.suhu_status = suhu_status;\nd.lembab_status = lembab_status;\nd.status = status;\n\nglobal.set(\"lastData\", d);\n\n// ================= OUTPUT =================\nlet now = Date.now();\n\nreturn [\n\n    // ===== GAUGE =====\n    { payload: hum },\n    { payload: suhu },\n    { payload: hum_udara },\n    { payload: suhu_udara },\n\n    // ===== AKTUATOR =====\n    { payload: d.pompa == 1 ? \"🟢 ON\" : \"🔴 OFF\" },\n    { payload: d.fan == 1 ? \"🟢 ON\" : \"🔴 OFF\" },\n    { payload: currentMode }, // ← FIX UTAMA\n\n    // ===== STATUS =====\n    { payload: status },\n\n    // ===== CHART =====\n    { topic: \"Suhu Kompos\", payload: { x: now, y: suhu } },\n    { topic: \"Suhu Udara\", payload: { x: now, y: suhu_udara } },\n    { topic: \"Kelembapan Kompos\", payload: { x: now, y: hum } },\n    { topic: \"Kelembapan Udara\", payload: { x: now, y: hum_udara } },\n\n    // ===== RAW =====\n    { payload: d }\n\n];",
+        "outputs": 13,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 360,
+        "wires": [
+            [
+                "52024b7539ebc65b"
+            ],
+            [
+                "8b4f29572ee82e91"
+            ],
+            [
+                "9391ca42ca98e5c8"
+            ],
+            [
+                "f2fba516721c8ed1"
+            ],
+            [
+                "2a6a3c58a6224d97"
+            ],
+            [
+                "58d5091f8ab93151"
+            ],
+            [
+                "a499a8696b6d835e"
+            ],
+            [
+                "20a5db19f263f740",
+                "e632da5b45ee1042"
+            ],
+            [
+                "7e7e2b41f5a09b99"
+            ],
+            [
+                "7e7e2b41f5a09b99"
+            ],
+            [
+                "4fac3f483fd005e5"
+            ],
+            [
+                "4fac3f483fd005e5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a7d90d0ded5deaf5",
+        "type": "telegram sender",
+        "z": "ecf8da8731fd77e3",
+        "name": "",
+        "bot": "165d0f26341f60a8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1070,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "20a5db19f263f740",
+        "type": "function",
+        "z": "ecf8da8731fd77e3",
+        "name": "function 2",
+        "func": "// ================= CEK SISTEM =================\nlet systemOn = global.get(\"systemOn\");\nif (systemOn === undefined) {\n    systemOn = true;\n    global.set(\"systemOn\", true);\n}\nif (!systemOn) return null;\n\n// ================= AMBIL DATA =================\nlet d = msg.payload;\n\nif (!d || d.suhu_kompos === undefined) {\n    d = global.get(\"lastData\");\n}\n\nif (!d || d.suhu_kompos === undefined) return null;\n\n// ================= VALIDASI ANGKA =================\nlet suhu = parseFloat(d.suhu_kompos);\nlet hum = parseInt(d.kelembapan_kompos);\n\nif (isNaN(suhu) || isNaN(hum)) return null;\n\nlet anomaly = global.get(\"lastAnomaly\") || false;\n\n// ================= MODE =================\nlet mode = d.mode || \"AUTO\";\n\n// ================= STATUS HYSTERESIS =================\nlet status = global.get(\"statusHysteresis\") || \"OPTIMAL\";\n\n// ================= STABILISASI (ANTI NOISE) =================\nlet lastRawStatus = global.get(\"lastRawStatus\") || null;\nlet counter = global.get(\"statusCounter\") || 0;\n\nif (status === lastRawStatus) {\n    counter++;\n} else {\n    counter = 0;\n}\n\nglobal.set(\"lastRawStatus\", status);\nglobal.set(\"statusCounter\", counter);\n\nif (counter < 3) return null;\n\n// ================= FILTER DUPLIKAT =================\nlet lastSent = global.get(\"lastStatusSent\");\nif (status === lastSent && !anomaly) return null;\n\n// ================= ANTI SPAM GLOBAL =================\nlet lastTime = global.get(\"lastNotifTime\") || 0;\nlet now = Date.now();\n\nif (now - lastTime < 30000) return null;\n\n// ================= REKOMENDASI (HANYA MANUAL) =================\nlet rekomendasi = \"\";\nlet actionKey = \"\";\n\nif (mode === \"MANUAL\") {\n\n    if (hum < 40) {\n        rekomendasi = \"💧 Kelembapan rendah.\\nDisarankan nyalakan pompa ±10 detik.\";\n        actionKey = \"POMPA\";\n    }\n    else if (hum > 65) {\n        rekomendasi = \"💦 Kelembapan terlalu tinggi.\\nHentikan penyiraman sementara.\";\n        actionKey = \"BASAH\";\n    }\n    else if (suhu > 45) {\n        rekomendasi = \"🌡️ Suhu tinggi.\\nDisarankan nyalakan kipas ±10 detik.\";\n        actionKey = \"FAN\";\n    }\n    else if (suhu < 35) {\n        rekomendasi = \"🌡️ Suhu rendah.\\nProses kompos melambat.\";\n        actionKey = \"DINGIN\";\n    }\n}\n\n// ================= ANTI SPAM PER AKSI =================\nlet lastActionTime = global.get(\"lastActionTime\") || {};\nlet cooldown = 10 * 60 * 1000; // 10 menit\n\nif (mode === \"MANUAL\" && actionKey) {\n    let last = lastActionTime[actionKey] || 0;\n\n    if (now - last < cooldown) {\n        return null;\n    }\n\n    lastActionTime[actionKey] = now;\n    global.set(\"lastActionTime\", lastActionTime);\n}\n\n// ================= FORMAT PESAN =================\nlet pesan = \"\";\nconst garis = \"━━━━━━━━━━━━━━━\";\n\nif (anomaly) {\n    pesan =\n        \"⚠️ PERINGATAN PERUBAHAN TIDAK WAJAR\\n\" +\n        garis + \"\\n\\n\" +\n        \"🌡️ Suhu Kompos      : \" + suhu.toFixed(1) + \" °C (optimal 35–45°C)\\n\" +\n        \"💧 Kelembapan Kompos: \" + hum + \" % (optimal 40–60%)\\n\\n\" +\n        \"Terjadi perubahan data signifikan.\\n\\n\" +\n        \"Rekomendasi:\\n\" +\n        \"- Periksa sensor\\n\" +\n        \"- Amati kondisi langsung\";\n\n} else if (status === \"OPTIMAL\") {\n    pesan =\n        \"🟢 KONDISI OPTIMAL\\n\" +\n        garis + \"\\n\\n\" +\n        \"🌡️ Suhu Kompos      : \" + suhu.toFixed(1) + \" °C (optimal 35–45°C)\\n\" +\n        \"💧 Kelembapan Kompos: \" + hum + \" % (optimal 40–60%)\\n\\n\" +\n        \"Proses pengomposan berjalan baik.\";\n\n} else {\n    pesan =\n        \"🟡 KONDISI TIDAK OPTIMAL\\n\" +\n        garis + \"\\n\\n\" +\n        \"🌡️ Suhu Kompos      : \" + suhu.toFixed(1) + \" °C (optimal 35–45°C)\\n\" +\n        \"💧 Kelembapan Kompos: \" + hum + \" % (optimal 40–60%)\\n\\n\";\n\n    if (mode === \"MANUAL\" && rekomendasi !== \"\") {\n        pesan += \"Rekomendasi:\\n\" + rekomendasi;\n    } else {\n        pesan += \"Sistem sedang menyesuaikan kondisi secara otomatis.\";\n    }\n}\n\n// ================= OUTPUT =================\nmsg.payload = {\n    chatId: \"5276386835\",\n    type: \"message\",\n    content: pesan\n};\n\n// ================= SIMPAN =================\nglobal.set(\"lastStatusSent\", status);\nglobal.set(\"lastNotifTime\", now);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 500,
+        "wires": [
+            [
+                "a7d90d0ded5deaf5"
+            ]
+        ]
+    },
+    {
+        "id": "aed13ab9f375b33d",
+        "type": "debug",
+        "z": "ecf8da8731fd77e3",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8b4f29572ee82e91",
+        "type": "ui-gauge",
+        "z": "ecf8da8731fd77e3",
+        "name": "Suhu Kompos",
+        "group": "184a51fe7b23b429",
+        "order": 0,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Suhu Kompos",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd4d6",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "35",
+                "color": "#28bd3a",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "45",
+                "color": "#ea9753",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "60",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "60",
+        "sizeThickness": "16",
+        "sizeGap": "8",
+        "sizeKeyThickness": "8",
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 920,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9391ca42ca98e5c8",
+        "type": "ui-gauge",
+        "z": "ecf8da8731fd77e3",
+        "name": "Kelembapan Udara",
+        "group": "f9d1b2c1561499f6",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Kelembapan Udara",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#dc5050",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#3bc729",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#46bc2f",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "80",
+                "color": "#f99c1a",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 930,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2fba516721c8ed1",
+        "type": "ui-gauge",
+        "z": "ecf8da8731fd77e3",
+        "name": "Suhu Udara",
+        "group": "f9d1b2c1561499f6",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Suhu Udara",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "20",
+                "color": "#5cd4d6",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "35",
+                "color": "#3fd416",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#62d331",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "45",
+                "color": "#d76519",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "20",
+        "max": "50",
+        "sizeThickness": "16",
+        "sizeGap": "8",
+        "sizeKeyThickness": "8",
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 910,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a6a3c58a6224d97",
+        "type": "ui-text",
+        "z": "ecf8da8731fd77e3",
+        "group": "a9a40e837ec9c325",
+        "order": 1,
+        "width": 3,
+        "height": 0,
+        "name": "Pompa",
+        "label": "Pompa",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 900,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "58d5091f8ab93151",
+        "type": "ui-text",
+        "z": "ecf8da8731fd77e3",
+        "group": "a9a40e837ec9c325",
+        "order": 3,
+        "width": 3,
+        "height": 0,
+        "name": "Kipas",
+        "label": "Kipas",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 890,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "a499a8696b6d835e",
+        "type": "ui-text",
+        "z": "ecf8da8731fd77e3",
+        "group": "815b0653b8925fb6",
+        "order": 2,
+        "width": 3,
+        "height": 0,
+        "name": "Mode",
+        "label": "Mode",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 890,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e632da5b45ee1042",
+        "type": "ui-text",
+        "z": "ecf8da8731fd77e3",
+        "group": "815b0653b8925fb6",
+        "order": 4,
+        "width": 3,
+        "height": 0,
+        "name": "Status",
+        "label": "Status Kompos",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": true,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 890,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "7e7e2b41f5a09b99",
+        "type": "ui-chart",
+        "z": "ecf8da8731fd77e3",
+        "group": "3741c0cef3999cb6",
+        "name": "Suhu",
+        "label": "Suhu",
+        "order": 9007199254740991,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "Suhu (°C)",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "20",
+        "ymax": "60",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": "4",
+        "showLegend": true,
+        "removeOlder": "30",
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "smooth",
+        "x": 890,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4fac3f483fd005e5",
+        "type": "ui-chart",
+        "z": "ecf8da8731fd77e3",
+        "group": "3741c0cef3999cb6",
+        "name": "Kelembapan",
+        "label": "Kelembapan",
+        "order": 9007199254740991,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "Kelembapan (%)",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "0",
+        "ymax": "100",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "false",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "30",
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "smooth",
+        "x": 910,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ccdfb67fc7366c3e",
+        "type": "telegram receiver",
+        "z": "16a86c011ee9c50a",
+        "name": "",
+        "bot": "165d0f26341f60a8",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "hasinput": false,
+        "inputs": 0,
+        "handleallupdates": false,
+        "handleprocessupdates": false,
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "de74ae014d27163e"
+            ],
+            [
+                "de74ae014d27163e"
+            ]
+        ]
+    },
+    {
+        "id": "de74ae014d27163e",
+        "type": "function",
+        "z": "16a86c011ee9c50a",
+        "name": "function 3",
+        "func": "// ================= WHITELIST CHAT ID =================\nconst ALLOWED_CHAT_IDS = [\"5276386835\"]; // tambahkan chatId lain di sini\n\n// ================= VALIDASI =================\nif (!msg.payload || !msg.payload.content || !msg.payload.chatId) {\n    return null;\n}\n\nlet text = msg.payload.content.trim().toLowerCase();\nlet chatId = msg.payload.chatId;\n\n// ================= CEK KEAMANAN =================\nif (!ALLOWED_CHAT_IDS.includes(String(chatId))) {\n    return [null, {\n        payload: {\n            chatId: chatId,\n            type: \"message\",\n            content: \"⛔ Akses tidak diizinkan.\"\n        }\n    }];\n}\n\nconst garis = \"━━━━━━━━━━━━━━━\";\n\n// ================= HELPER =================\nfunction kirimTelegram(pesan) {\n    return {\n        payload: {\n            chatId: chatId,\n            type: \"message\",\n            content: pesan\n        }\n    };\n}\n\nfunction kirimMQTT(command) {\n    return {\n        payload: command,\n        topic: \"iot/kompos/ta/device1/control\"\n    };\n}\n\n// ================= /help =================\nif (text === \"/help\") {\n    let pesan =\n        \"📖 PANDUAN PERINTAH\\n\" +\n        garis + \"\\n\\n\" +\n        \"📊 Info & Status\\n\" +\n        \"/info    — Data sensor terkini\\n\" +\n        \"/status  — Status notifikasi & kondisi\\n\\n\" +\n        garis + \"\\n\\n\" +\n        \"🔔 Notifikasi\\n\" +\n        \"/on   — Aktifkan notifikasi\\n\" +\n        \"/off  — Matikan notifikasi\\n\\n\" +\n        garis + \"\\n\\n\" +\n        \"⚙️ Mode Operasi\\n\" +\n        \"/auto    — Mode otomatis\\n\" +\n        \"/manual  — Mode manual\\n\\n\" +\n        garis + \"\\n\\n\" +\n        \"🎛️ Kontrol Manual\\n\" +\n        \"(Aktifkan /manual terlebih dahulu)\\n\" +\n        \"/pompa_on  — Nyalakan pompa\\n\" +\n        \"/pompa_off — Matikan pompa\\n\" +\n        \"/fan_on    — Nyalakan kipas\\n\" +\n        \"/fan_off   — Matikan kipas\";\n\n    return [null, kirimTelegram(pesan)];\n}\nif (text === \"/info\") {\n    let d = global.get(\"lastData\");\n\n    if (!d || !d.suhu_status || !d.lembab_status) {\n        return [null, kirimTelegram(\"⚠️ Data belum siap. Tunggu sensor update.\")];\n    }\n\n    let suhuVal = parseFloat(d.suhu_kompos);\n    let humVal  = parseInt(d.kelembapan_kompos);\n\n    let suhu = suhuVal.toFixed(1);\n    let hum  = humVal;\n\n    let pompaText = d.pompa == 1 ? \"🟢 ON\" : \"🔴 OFF\";\n    let fanText = d.fan == 1 ? \"🟢 ON\" : \"🔴 OFF\";\n    let modeText = (d.mode === \"MANUAL\") ? \"✋ MANUAL\" : \"🔁 AUTO\";\n\n    // ================= IKON STATUS =================\n    let ikonStatus;\n    if (d.status === \"KRITIS\") ikonStatus = \"🔴 KRITIS\";\n    else if (d.status === \"TIDAK OPTIMAL\") ikonStatus = \"🟡 TIDAK OPTIMAL\";\n    else ikonStatus = \"🟢 OPTIMAL\";\n\n    // ================= INSIGHT =================\n    let insight = \"\";\n\n    if (suhuVal < 35) {\n        insight = \"Kompos terlalu dingin → proses lambat.\\n💡 Saran: tambahkan bahan hijau / aduk kompos.\";\n    }\n    else if (suhuVal > 45) {\n        insight = \"Kompos terlalu panas.\\n💡 Saran: aktifkan kipas atau kurangi kelembapan.\";\n    }\n    else if (humVal < 40) {\n        insight = \"Kompos terlalu kering.\\n💡 Saran: nyalakan pompa ±10 detik.\";\n    }\n    else if (humVal > 60) {\n        insight = \"Kompos terlalu basah.\\n💡 Saran: hentikan pompa & tambah aerasi.\";\n    }\n    else {\n        insight = \"Kondisi ideal. Pertahankan 👍\";\n    }\n\n    let pesan =\n        \"📊 DATA TERKINI\\n\" +\n        garis + \"\\n\\n\" +\n\n        \"🌡️ Suhu kompos  : \" + suhu + \"°C (optimal 35–45°C)\\n\" +\n        d.suhu_status + \"\\n\\n\" +\n\n        \"💧 Kelembapan   : \" + hum + \"% (optimal 40–60%)\\n\" +\n        d.lembab_status + \"\\n\\n\" +\n\n        garis + \"\\n\\n\" +\n\n        \"⚙️ Pompa        : \" + pompaText + \"\\n\" +\n        \"⚙️ Kipas        : \" + fanText + \"\\n\" +\n        \"🔧 Mode         : \" + modeText + \"\\n\\n\" +\n\n        garis + \"\\n\" +\n        \"📌 Status       : \" + ikonStatus + \"\\n\\n\" +\n        \"💡 Analisis:\\n\" + insight;\n\n    return [null, kirimTelegram(pesan)];\n}\n// ================= /on =================\nif (text === \"/on\") {\n    global.set(\"systemOn\", true);\n    return [null, kirimTelegram(\"✅ Notifikasi AKTIF\")];\n}\n\n// ================= /off =================\nif (text === \"/off\") {\n    global.set(\"systemOn\", false);\n    return [null, kirimTelegram(\"⛔ Notifikasi DIMATIKAN\")];\n}\n\n// ================= /status =================\nif (text === \"/status\") {\n    let on = global.get(\"systemOn\");\n    let d = global.get(\"lastData\");\n\n    let ikonStatus = \"⚠️ Belum ada data\";\n    if (d && d.status) {\n        if (d.status === \"KRITIS\") ikonStatus = \"🔴 KRITIS\";\n        else if (d.status === \"TIDAK OPTIMAL\") ikonStatus = \"🟡 TIDAK OPTIMAL\";\n        else ikonStatus = \"🟢 OPTIMAL\";\n    }\n\n    return [null, kirimTelegram(\n        \"🔧 Notifikasi : \" + (on ? \"AKTIF\" : \"MATI\") + \"\\n\" +\n        \"📌 Status     : \" + ikonStatus\n    )];\n}\n\n// ================= MODE =================\nif (text === \"/manual\") {\n    global.set(\"mode\", \"MANUAL\");\n    return [\n        kirimMQTT(\"MANUAL\"),\n        kirimTelegram(\n            \"✋ MODE MANUAL AKTIF\\n\\n\" +\n            \"Perintah:\\n\" +\n            \"/pompa_on\\n/pompa_off\\n/fan_on\\n/fan_off\"\n        )\n    ];\n}\n\nif (text === \"/auto\") {\n    global.set(\"mode\", \"AUTO\");\n    return [kirimMQTT(\"AUTO\"), kirimTelegram(\"🔁 MODE AUTO AKTIF\")];\n}\n\n// ================= VALIDASI MODE =================\nlet mode = global.get(\"mode\") || \"AUTO\";\n\nfunction cekManual() {\n    if (mode !== \"MANUAL\") {\n        return [null, kirimTelegram(\"⚠️ Aktifkan MODE MANUAL dulu dengan /manual\")];\n    }\n    return null;\n}\n\n// ================= POMPA =================\nif (text === \"/pompa_on\") {\n    let cek = cekManual();\n    if (cek) return cek;\n    return [kirimMQTT(\"POMPA_ON\"), kirimTelegram(\"💧 Pompa ON\")];\n}\n\nif (text === \"/pompa_off\") {\n    let cek = cekManual();\n    if (cek) return cek;\n    return [kirimMQTT(\"POMPA_OFF\"), kirimTelegram(\"💧 Pompa OFF\")];\n}\n\n// ================= FAN =================\nif (text === \"/fan_on\") {\n    let cek = cekManual();\n    if (cek) return cek;\n    return [kirimMQTT(\"FAN_ON\"), kirimTelegram(\"🌀 Fan ON\")];\n}\n\nif (text === \"/fan_off\") {\n    let cek = cekManual();\n    if (cek) return cek;\n    return [kirimMQTT(\"FAN_OFF\"), kirimTelegram(\"🌀 Fan OFF\")];\n}\n\n// ================= DEFAULT =================\nreturn [null, kirimTelegram(\n    \"❓ Perintah tidak dikenal.\\n\\nKetik /help untuk daftar perintah.\"\n)];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [
+                "45e5ef7f90b37a6f"
+            ],
+            [
+                "792a847c3802e001",
+                "a86e1b477793640d"
+            ]
+        ]
+    },
+    {
+        "id": "a86e1b477793640d",
+        "type": "telegram sender",
+        "z": "16a86c011ee9c50a",
+        "name": "",
+        "bot": "165d0f26341f60a8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "792a847c3802e001",
+        "type": "debug",
+        "z": "16a86c011ee9c50a",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "45e5ef7f90b37a6f",
+        "type": "mqtt out",
+        "z": "16a86c011ee9c50a",
+        "name": "",
+        "topic": "iot/kompos/ta/device1/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "1556868b78365b1d",
+        "x": 600,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "55c0859a7bbefde7",
+        "type": "inject",
+        "z": "40d1548edf259200",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "21600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "b2eda27fc78bb11d"
+            ]
+        ]
+    },
+    {
+        "id": "b2eda27fc78bb11d",
+        "type": "function",
+        "z": "40d1548edf259200",
+        "name": "function 4",
+        "func": "// ================= CEK SISTEM =================\nlet systemOn = global.get(\"systemOn\");\nif (systemOn === false) return null;\n\n// ================= AMBIL DATA =================\nlet d = global.get(\"lastData\");\n\nif (!d) {\n    return {\n        payload: {\n            chatId: \"5276386835\",\n            type: \"message\",\n            content: \"⚠️ Data belum tersedia. Tunggu sensor update.\"\n        }\n    };\n}\n\n// ================= AMBIL STATUS ANOMALI =================\nlet anomaly = global.get(\"lastAnomaly\") || false;\n\n// ================= FORMAT ANGKA =================\nlet suhuVal = parseFloat(d.suhu_kompos);\nlet humVal  = parseInt(d.kelembapan_kompos);\n\nlet suhu = suhuVal.toFixed(1); // untuk tampilan\nlet hum  = humVal;\n\n// ================= STATUS =================\nlet suhuStatus   = d.suhu_status  || \"⚠️ STATUS BELUM TERSEDIA\";\nlet lembabStatus = d.lembab_status || \"⚠️ STATUS BELUM TERSEDIA\";\n\n// ================= IKON =================\nlet ikonStatus;\nif (anomaly) ikonStatus = \"⚠️ PERUBAHAN TIDAK WAJAR\";\nelse if (d.status === \"KRITIS\") ikonStatus = \"🔴 KRITIS\";\nelse if (d.status === \"TIDAK OPTIMAL\") ikonStatus = \"🟡 TIDAK OPTIMAL\";\nelse ikonStatus = \"🟢 OPTIMAL\";\n\n// ================= INTERPRETASI =================\nlet insight = \"\";\n\nif (anomaly) {\n    insight = \"Terjadi perubahan data signifikan dalam waktu singkat. Perlu pengecekan sensor atau kondisi kompos.\";\n}\nelse if (suhuVal < 35) {\n    insight = \"Suhu relatif rendah, kemungkinan fase awal atau pendinginan.\";\n}\nelse if (suhuVal > 45) {\n    insight = \"Suhu tinggi, proses penguraian sedang aktif.\";\n}\nelse {\n    insight = \"Suhu berada dalam rentang optimal.\";\n}\n\n// ================= AKTUATOR =================\nlet pompaText = d.pompa == 1 ? \"🟢 ON\" : \"🔴 OFF\";\nlet fanText   = d.fan   == 1 ? \"🟢 ON\" : \"🔴 OFF\";\n\nconst garis = \"━━━━━━━━━━━━━━━\";\n\n// ================= PESAN =================\nmsg.payload = {\n    chatId: \"5276386835\",\n    type: \"message\",\n    content:\n        \"📋 LAPORAN BERKALA SISTEM KOMPOSTER\\n\" +\n        garis + \"\\n\\n\" +\n\n        \"🌡️ Suhu kompos  : \" + suhu + \"°C (optimal 35–45°C)\\n\" +\n        suhuStatus + \"\\n\\n\" +\n\n        \"💧 Kelembapan   : \" + hum + \"% (optimal 40–60%)\\n\" +\n        lembabStatus + \"\\n\\n\" +\n\n        garis + \"\\n\\n\" +\n\n        \"🌤️ Suhu udara   : \" + d.suhu_udara + \"°C\\n\" +\n        \"💨 Hum udara    : \" + d.kelembapan_udara + \"%\\n\\n\" +\n\n        garis + \"\\n\\n\" +\n\n        \"⚙️ Pompa        : \" + pompaText + \"\\n\" +\n        \"⚙️ Kipas        : \" + fanText + \"\\n\\n\" +\n\n        garis + \"\\n\" +\n\n        \"📌 Status       : \" + ikonStatus + \"\\n\\n\" +\n        \"💡 Analisis     : \" + insight\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "220236e3a0cb179a"
+            ]
+        ]
+    },
+    {
+        "id": "220236e3a0cb179a",
+        "type": "telegram sender",
+        "z": "40d1548edf259200",
+        "name": "",
+        "bot": "165d0f26341f60a8",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a1610def2c18c4f",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2",
+            "node-red-contrib-telegrambot": "17.1.3",
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
