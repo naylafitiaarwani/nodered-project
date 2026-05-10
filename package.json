@@ -2,11 +2,11 @@
   "name": "nodered-railway",
   "version": "1.0.0",
   "scripts": {
-    "start": "node-red"
+    "start": "node-red -u . --settings settings.js"
   },
   "dependencies": {
     "node-red": "^4.1.0",
     "@flowfuse/node-red-dashboard": "^1.30.2",
-    "node-red-contrib-telegrambot": "^16.3.2"
+    "node-red-contrib-telegrambot": "^16.4.0"
   }
 }
