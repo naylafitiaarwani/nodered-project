@@ -1,10 +1,14 @@
 {
   "name": "nodered-render",
   "version": "1.0.0",
+  "description": "Node-RED on Render",
+  "main": "index.js",
   "scripts": {
-    "start": "node-red -p $PORT"
+    "start": "node-red"
   },
   "dependencies": {
-    "node-red": "^4.0.0"
+    "node-red": "^4.1.0",
+    "@flowfuse/node-red-dashboard": "^1.30.2",
+    "node-red-node-telegrambot": "^16.3.0"
   }
 }
