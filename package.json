@@ -7,6 +7,6 @@
   "dependencies": {
     "node-red": "^4.1.0",
     "@flowfuse/node-red-dashboard": "^1.30.2",
-    "node-red-node-telegrambot": "^16.3.0"
+    "node-red-node-telegrambot": "^16.0.0"
   }
 }
